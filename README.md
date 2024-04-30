@@ -7,5 +7,6 @@ in Postman: ![img.png](img.png)
 
 Spring Documentation for available endpoints: https://docs.spring.io/spring-boot/docs/current/reference/html/actuator.html
 
-e.g. http://localhost:8080/actuator/health
+e.g. http://localhost:8080/actuator/health (exposed by default)
 
+other endpoints:
