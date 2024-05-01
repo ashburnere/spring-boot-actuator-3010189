@@ -6,6 +6,10 @@ import org.springframework.stereotype.Component;
 
 import java.util.Random;
 
+/**
+ * Implementing a custom healt indicator to override the default on
+ * http://localhost:8080/actuator/health
+ */
 @Component
 public class DbHealthIndicator implements HealthIndicator {
 
