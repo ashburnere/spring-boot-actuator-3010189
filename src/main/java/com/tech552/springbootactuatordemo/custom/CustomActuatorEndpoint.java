@@ -7,6 +7,9 @@ import org.springframework.stereotype.Component;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * A custom actuator endpoint at http://localhost:8080/actuator/custom?id=552
+ */
 @Endpoint(id = "custom")
 @Component
 public class CustomActuatorEndpoint {
